@@ -17,7 +17,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=fujimiya-dev&show_icons=true&hide_border=true&border_radius=12&bg_color=eef5ff&title_color=3b6fb6&text_color=3d4a5c&icon_color=6c9bd2&ring_color=6c9bd2
+          options: username=fujimiya-dev&custom_title=Fujimiya%27s%20GitHub%20Stats&show_icons=true&hide_border=true&border_radius=12&bg_color=eef5ff&title_color=3b6fb6&text_color=3d4a5c&icon_color=6c9bd2&ring_color=6c9bd2
           path: profile/stats.svg
           token: ${{ secrets.PAT }}
 
